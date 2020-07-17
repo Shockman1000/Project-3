@@ -1,0 +1,6 @@
+The Machine Learning Model was made by looping through multiple images of covid and normal lungs converting the data to NumPy arrays and scaling the pixel intensitites. 
+Then it runs througe the dataset matching the image name with ether Normal or Covid to enshure accuracy of the divition of the images. 
+The it begins looping through the machine learning epochs while also showing the accuarcy sensitivity of the trainging.
+I only had it run through 25 Epocs becuse I belived that it would be enouge to give at lease a 90% accuacy.
+During the programe I had it ploting the training loss value loss training accuract and value accuacy in matplotlib
+After 25 Epocs it had about a 90% accuacy of detecting wheather or not the Machine Learning model can detect Covid or normal healthy lungs.
