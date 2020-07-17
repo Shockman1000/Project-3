@@ -4,3 +4,6 @@ The it begins looping through the machine learning epochs while also showing the
 I only had it run through 25 Epocs becuse I belived that it would be enouge to give at lease a 90% accuacy.
 During the programe I had it ploting the training loss value loss training accuract and value accuacy in matplotlib
 After 25 Epocs it had about a 90% accuacy of detecting wheather or not the Machine Learning model can detect Covid or normal healthy lungs.
+I used a programe called imageAI it is a python library that is built for image requintion machine learning.
+It allowed me to make a much simpler machine learning program then having to configue everything from start to finish it allowed
+me to simply scale the image data the seperate the covid vs normal in difrent files and the programe did the rest of the work.
